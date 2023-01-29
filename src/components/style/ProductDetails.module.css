@@ -1,0 +1,65 @@
+
+.container{
+    width: 50rem;
+}
+.container button {
+    border: none;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    color: rgba(0, 0, 0, 0.724);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:  0 5px 25px rgb(1,1,1,20%)  ;
+}
+.btn {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+.container h3 span {
+    font-size: 1.5rem;
+    color: #161b37bc;
+    font-weight: 500;
+}
+
+.contentTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.5rem;
+    width: 50rem;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+.contentTable thead tr {
+    background-color: #2155cd;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contentTable th,
+.contentTable td {
+    padding: 1rem 1.5rem;
+}
+
+.contentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.contentTable tbody tr:last-of-type {
+    border-bottom: 2px solid #2155cd;
+}
+
+
+

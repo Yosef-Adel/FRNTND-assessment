@@ -1,0 +1,23 @@
+.product {
+    background-color: #bad7e9;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product button {
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    box-shadow:  0 5px 25px rgb(1,1,1,25%)  ;
+    transition: .5s ease;
+}
+
+.product button:hover{
+    box-shadow:  0 5px 25px rgb(1,1,1,50%)  ;
+}
